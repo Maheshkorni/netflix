@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './Component/First'
+import First from './Component/First';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <First Name="John" age="21" />
+    <First Name="Jane" age="30" />
+    <First Name="Tom" age="25" />
   </React.StrictMode>
 );
 
