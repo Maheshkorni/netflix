@@ -1,0 +1,50 @@
+.Card {
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 10px;
+    height:30vh;
+    width:30vh;       
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top:7%;
+    border: 5px solid #4CAF50
+  }
+  .card_count{
+    
+    font-style: italic;
+  }
+  .Buttons{
+    margin-left:32%;
+    margin-top:1%;
+  }
+  .Countbutton{
+    margin-right: 1%;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 10px 24px;
+
+  }
+  .Countbutton:hover{
+    background-color: #4CAF50; /* Green */
+  color: white;
+
+  }
+
+  .Resetbutton{
+    margin-left: 1%;
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 10px 24px;
+
+  }
+.Resetbutton:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

@@ -3,16 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './Component/First'
-import First from './Component/First';
+import './Component/assignment 1/First'
+import First from './Component/assignment 1/First';
+import "./Component/assignment 2/Counter"
+import Counter from './Component/assignment 2/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <First Name="John" age="21" />
-    <First Name="Jane" age="30" />
-    <First Name="Tom" age="25" />
+    <First Name="jon" age="21" />
+    <Counter />
   </React.StrictMode>
 );
 
